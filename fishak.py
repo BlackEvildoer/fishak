@@ -44,6 +44,6 @@ print '=' * 49
 a = 1
 while True:
     print ('{}[-] {}WAIT FOR SEND REPORT... [{}] => {}{}').format(G, P, a, H, B)
-    print ('{} | {}[+]{} REPORT SEND [✔]').format(Report(), K, G)
+    print ('[+] REPORT SEND [</>]').format(Report(), K, G)
     print '=' * 49
     a += 1
